@@ -27,9 +27,11 @@
     "iview",
     "viewui"
   ],
-  "dependencies": {
-    "core-js": "^3.6.5",
+  "peerDependencies": {
     "vue": "^2.6.11"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.4.0",
